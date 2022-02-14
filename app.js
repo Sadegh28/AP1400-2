@@ -168,9 +168,6 @@ function translateToPersian() {
         var a = document.getElementById('13')
         a.innerText = 'شماره'
 
-        var a = document.getElementById('14')
-        a.innerText = 'تاریخ'
-
         var a = document.getElementById('15')
         a.innerText = 'موضوع جلسه'
 
@@ -337,6 +334,21 @@ function translateToPersian() {
     var a = document.getElementById('prevcourse4')
     a.innerText = `ترم 001`
     a.style.fontFamily = 'IRANSans'
+    
+    //syllabus
+
+    var a = document.getElementById('sl_1_number')
+    a.innerText = `1`
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('sl_1_subject')
+    a.innerText = 'نصب و راه اندازی برنامه های مورد نیاز ، معرفی کوئرا'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('sl_1_instructors')
+    a.innerText = 'تمامی اعضای حل تمرین'
+    a.style.fontFamily = 'IRANSans'
+    
 
 }
 
@@ -536,9 +548,6 @@ function translateToEnglish() {
     var a = document.getElementById('13')
     a.innerHTML = `Number`
 
-    var a = document.getElementById('14')
-    a.innerHTML = `Date`
-
     var a = document.getElementById('15')
     a.innerHTML = `Subject`
 
@@ -720,6 +729,15 @@ function translateToEnglish() {
     a.innerText = `Semester 001`
     a.style.fontFamily = "Sans-serif"
 
+    // syllabus
+
+    var a = document.getElementById('sl_1_subject')
+    a.innerText = 'Prerequisite'
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('sl_1_instructors')
+    a.innerText = 'All members of the Teaching assistance team'
+    a.style.fontFamily = "Sans-serif"
 
 }
 
