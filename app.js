@@ -348,8 +348,38 @@ function translateToPersian() {
     var a = document.getElementById('sl_1_instructors')
     a.innerText = 'تمامی اعضای حل تمرین'
     a.style.fontFamily = 'IRANSans'
-    
 
+    var a = document.getElementById('s1_1_a')
+    a.innerText = 'پیش نیاز های درس (کلاس آنلاین)'
+    a.style.fontFamily = 'IRANSans'
+    
+    var a = document.getElementById('sl_2_number')
+    a.innerText = `2`
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('sl_2_subject')
+    a.innerText = 'مقدمه'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('sl_2_instructors')
+    a.innerText = 'دکتر صادق اسکندری'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('session1_intro')
+    a.innerText = 'مقدمه (پی دی اف)'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('session1_intro_pptx')
+    a.innerText = 'مقدمه (پاورپوینت)'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('session2_intro')
+    a.innerText = 'مفاهیم مقدماتی پایتون (پی دی اف)'
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('session2_intro_pptx')
+    a.innerText = 'مفاهیم مقدماتی پایتون (پاورپوینت)'
+    a.style.fontFamily = 'IRANSans'
 }
 
 function translateToEnglish() {
@@ -738,6 +768,34 @@ function translateToEnglish() {
     var a = document.getElementById('sl_1_instructors')
     a.innerText = 'All members of the Teaching assistance team'
     a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('s1_1_a')
+    a.innerText = 'Prerequisite (Online Class)'
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('sl_2_subject')
+    a.innerText = 'Introduction'
+    a.style.fontFamily = 'Sans-serif'
+
+    var a = document.getElementById('sl_2_instructors')
+    a.innerText = 'Dr.Sadegh Eskandari'
+    a.style.fontFamily = 'Sans-serif'
+
+    var a = document.getElementById('session1_intro')
+    a.innerText = 'Introduction (.pdf)'
+    a.style.fontFamily = 'Sans-serif'
+
+    var a = document.getElementById('session1_intro_pptx')
+    a.innerText = 'Introduction (.pptx)'
+    a.style.fontFamily = 'Sans-serif'
+
+    var a = document.getElementById('session2_intro')
+    a.innerText = 'Python Basics (.pdf)'
+    a.style.fontFamily = 'Sans-serif'
+
+    var a = document.getElementById('session2_intro_pptx')
+    a.innerText = 'Python Basics (.pptx)'
+    a.style.fontFamily = 'Sans-serif'
 
 }
 
