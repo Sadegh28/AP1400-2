@@ -49,6 +49,10 @@ function translateToPersian() {
     a.style.fontFamily = 'IRANSans'
     a.innerHTML = 'پروژه های نهایی'
 
+    var a = document.getElementById('quera')
+    a.style.fontFamily = 'IRANSans'
+    a.innerHTML = 'صفحه کوئرا درس'
+
     
     var a = document.getElementById('777')
     a.style.fontFamily = 'IRANSans'
@@ -388,6 +392,11 @@ function translateToEnglish() {
     a.style.fontFamily = "Sans-serif"
     a.innerHTML = 'Advance Programming'
 
+    var a = document.getElementById('quera')
+    a.classList.remove('persian')
+    a.style.fontFamily = "Sans-serif"
+    a.innerHTML = 'Quera Webpage'
+
     var a = document.getElementById('per')
     a.classList.remove('persian')
     a.style.fontFamily = "Sans-serif"
@@ -489,7 +498,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet3')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t4')
     a.style.fontFamily = 'IRANSans'
@@ -497,7 +506,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet4')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t5')
     a.style.fontFamily = 'IRANSans'
@@ -505,7 +514,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet5')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t6')
     a.style.fontFamily = 'IRANSans'
@@ -513,7 +522,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet6')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t7')
     a.style.fontFamily = 'IRANSans'
@@ -521,7 +530,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet7')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t8')
     a.style.fontFamily = 'IRANSans'
@@ -529,7 +538,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet8')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t9')
     a.style.fontFamily = 'IRANSans'
@@ -537,7 +546,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet9')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('t10')
     a.style.fontFamily = 'IRANSans'
@@ -545,7 +554,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet10')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Assistance'
+    a.innerHTML = 'Teaching Assistant'
 
     var a = document.getElementById('ref1')
     a.innerText = 'Python Programming: An Introduction to Computer Science'
@@ -766,7 +775,7 @@ function translateToEnglish() {
     a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('sl_1_instructors')
-    a.innerText = 'All members of the Teaching assistance team'
+    a.innerText = 'All members of the Teaching Assistant team'
     a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('s1_1_a')
