@@ -404,6 +404,30 @@ function translateToPersian() {
     var a = document.getElementById('session3_intro_pptx')
     a.innerText = 'ساختار های کنترلی (پاورپوینت)'
     a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('sl_3_subin')
+    a.innerText = 'کیان رضایی / فائزه رحمتی / امیر اصغری'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('Tclass1')
+    a.innerText = 'جلسه دوم کلاس حل تمرین (آنلاین)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('offline')
+    a.innerText = 'کلاس حل تمرین (آفلاین)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('offline2')
+    a.innerText = 'کلاس حل تمرین (آفلاین)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('offline3')
+    a.innerText = 'کلاس حل تمرین (آفلاین)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('offline4')
+    a.innerText = 'کلاس حل تمرین (آفلاین)'
+    a.style.fontFamily = 'IranYekan'
 }
 
 function translateToEnglish() {
@@ -844,6 +868,29 @@ function translateToEnglish() {
     a.innerText = 'Control Structures (.pptx)'
     a.style.fontFamily = 'Roboto Serif'
 
+    var a = document.getElementById('sl_3_subin')
+    a.innerText = 'Kiyan Rezaee / Faeze Rahmati / Amir Asqari'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('Tclass1')
+    a.innerText = 'Online Class'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('offline')
+    a.innerText = 'Teaching Assistant Class (Offline)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('offline2')
+    a.innerText = 'Teaching Assistant Class (Offline)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('offline3')
+    a.innerText = 'Teaching Assistant Class (Offline)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('offline4')
+    a.innerText = 'Teaching Assistant Class (Offline)'
+    a.style.fontFamily = 'Roboto Serif'
 }
 
 window.onload = function () {
