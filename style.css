@@ -7,22 +7,22 @@
     font-family: IranYekan;
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/IranYekan/eot/iranyekanwebregular(fanum).eot');
-    src: url('../fonts/IranYekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),
-        url('../fonts/IranYekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),
-        url('../fonts/IranYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
-        url('../fonts/IranYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+    src: url('fonts/IranYekan/eot/iranyekanwebregular(fanum).eot');
+    src: url('fonts/IranYekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),
+        url('fonts/IranYekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),
+        url('fonts/IranYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
+        url('fonts/IranYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
 }
 
 @font-face {
     font-family: IranYekan;
     font-style: normal;
     font-weight: bold;
-    src: url('../fonts/IranYekan/eot/iranyekanwebbold(fanum).eot');
-    src: url('../fonts/IranYekan/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),
-        url('../fonts/IranYekan/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
-        url('../fonts/IranYekan/woff/iranyekanwebbold(fanum).woff') format('woff'),
-        url('../fonts/IranYekan/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+    src: url('fonts/IranYekan/eot/iranyekanwebbold(fanum).eot');
+    src: url('fonts/IranYekan/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),
+        url('fonts/IranYekan/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
+        url('fonts/IranYekan/woff/iranyekanwebbold(fanum).woff') format('woff'),
+        url('fonts/IranYekan/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
 }
 
 
