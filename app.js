@@ -428,6 +428,34 @@ function translateToPersian() {
     var a = document.getElementById('offline4')
     a.innerText = 'کلاس حل تمرین (آفلاین)'
     a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('sl_4_number')
+    a.innerText = `4`
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('sl_4_subject')
+    a.innerText = 'توابع - توابع بازگشتی'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('sl_4_instructors')
+    a.innerText = 'دکتر صادق اسکندری'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('session4_intro')
+    a.innerText = 'توابع (پی دی اف)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('session4_intro_pptx')
+    a.innerText = 'توابع (پاورپوینت)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('session5_intro')
+    a.innerText = 'بازگشتی (پی دی اف)'
+    a.style.fontFamily = 'IranYekan'
+
+    var a = document.getElementById('session5_intro_pptx')
+    a.innerText = 'بازگشتی (پاورپوینت)'
+    a.style.fontFamily = 'IranYekan'
 }
 
 function translateToEnglish() {
@@ -890,6 +918,34 @@ function translateToEnglish() {
 
     var a = document.getElementById('offline4')
     a.innerText = 'Teaching Assistant Class (Offline)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('sl_4_number')
+    a.innerText = `4`
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('sl_4_subject')
+    a.innerText = 'Functions - Recursion'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('sl_4_instructors')
+    a.innerText = 'Dr.Sadegh Eskandari'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('session4_intro')
+    a.innerText = 'Functions (.pdf)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('session4_intro_pptx')
+    a.innerText = 'Functions (.pptx)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('session5_intro')
+    a.innerText = 'Recursion (.pdf)'
+    a.style.fontFamily = 'Roboto Serif'
+
+    var a = document.getElementById('session5_intro_pptx')
+    a.innerText = 'Recursion (.pptx)'
     a.style.fontFamily = 'Roboto Serif'
 }
 
